@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "简单工厂模式", "简单工厂模式", "{12D00D19-79F1-407F-90B2-CCDA1A24D668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationLayer", "OperationLayer\OperationLayer.csproj", "{1981E41B-0CE5-41A0-A092-DCD701F99D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{51DCE788-2493-4F52-94AE-EEBA193D9320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1981E41B-0CE5-41A0-A092-DCD701F99D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1981E41B-0CE5-41A0-A092-DCD701F99D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1981E41B-0CE5-41A0-A092-DCD701F99D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1981E41B-0CE5-41A0-A092-DCD701F99D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DCE788-2493-4F52-94AE-EEBA193D9320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DCE788-2493-4F52-94AE-EEBA193D9320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DCE788-2493-4F52-94AE-EEBA193D9320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DCE788-2493-4F52-94AE-EEBA193D9320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1981E41B-0CE5-41A0-A092-DCD701F99D5D} = {12D00D19-79F1-407F-90B2-CCDA1A24D668}
+		{51DCE788-2493-4F52-94AE-EEBA193D9320} = {12D00D19-79F1-407F-90B2-CCDA1A24D668}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD62A4DC-0E97-4A1B-8B1C-970FD1530904}
+	EndGlobalSection
+EndGlobal
