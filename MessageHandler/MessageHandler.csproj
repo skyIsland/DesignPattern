@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89772B83-6AE4-4C2C-A34C-71DEB9D26EF4}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>DecoratorTest</RootNamespace>
-    <AssemblyName>DecoratorTest</AssemblyName>
+    <ProjectGuid>{D15C8E39-0523-455E-8196-4EC04A7CD50F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MessageHandler</RootNamespace>
+    <AssemblyName>MessageHandler</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,21 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Decorators\EmailDecorator.cs" />
+    <Compile Include="Decorators\SMSDecorator.cs" />
+    <Compile Include="MessageDecorator.cs" />
+    <Compile Include="MessageComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Decorator\Decorator.csproj">
-      <Project>{45e03f1e-261b-45c6-9ccc-8e6234452256}</Project>
-      <Name>Decorator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MessageHandler\MessageHandler.csproj">
-      <Project>{d15c8e39-0523-455e-8196-4ec04a7cd50f}</Project>
-      <Name>MessageHandler</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

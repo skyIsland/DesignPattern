@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorTest", "DecoratorTest\DecoratorTest.csproj", "{89772B83-6AE4-4C2C-A34C-71DEB9D26EF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageHandler", "MessageHandler\MessageHandler.csproj", "{D15C8E39-0523-455E-8196-4EC04A7CD50F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{89772B83-6AE4-4C2C-A34C-71DEB9D26EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89772B83-6AE4-4C2C-A34C-71DEB9D26EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89772B83-6AE4-4C2C-A34C-71DEB9D26EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15C8E39-0523-455E-8196-4EC04A7CD50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15C8E39-0523-455E-8196-4EC04A7CD50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15C8E39-0523-455E-8196-4EC04A7CD50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15C8E39-0523-455E-8196-4EC04A7CD50F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{933525F9-9669-4FD6-ABBA-0E6702F9CDB7} = {7E409970-AA43-4745-839D-637E8C2F9F52}
 		{45E03F1E-261B-45C6-9CCC-8E6234452256} = {4020149D-C03A-4253-97F1-104194AE9D27}
 		{89772B83-6AE4-4C2C-A34C-71DEB9D26EF4} = {4020149D-C03A-4253-97F1-104194AE9D27}
+		{D15C8E39-0523-455E-8196-4EC04A7CD50F} = {4020149D-C03A-4253-97F1-104194AE9D27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD62A4DC-0E97-4A1B-8B1C-970FD1530904}

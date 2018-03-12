@@ -1,4 +1,6 @@
 ﻿using Decorator;
+using MessageHandler;
+using MessageHandler.Decorators;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +12,12 @@ namespace DecoratorTest
     class Program
     {
         static void Main(string[] args)
+        {
+            Test2();
+            Console.ReadKey();
+        }
+        
+        static void Test1()
         {
             var person = new Person("张三");
 
@@ -32,7 +40,19 @@ namespace DecoratorTest
 
             // show
             bigTh.Show();
-            Console.ReadKey();
+        }
+
+        static void Test2()
+        {
+            // 默认装饰
+            MessageComponent defaultMessage = new DefaultMessage();
+
+            // email装饰添加职责
+            var emailDecorator = new EmailDecorator(defaultMessage);
+
+            // SMS装饰添加职责
+            var smsDecorator = new SMSDecorator(emailDecorator);//把emailDecorator添加到sms后，同时它集成了defaultMessage
+            smsDecorator.Send("测试发送...");
         }
     }
 }
