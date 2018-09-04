@@ -22,10 +22,7 @@ namespace MessageHandler
         public override void Send(string message)
         {
             // 判断一下是否已经传进来具体的装饰模式
-            if (_messageContaion != null)
-            {
-                _messageContaion.Send(message);
-            }
+            _messageContaion?.Send(message);
         }
     }
 }

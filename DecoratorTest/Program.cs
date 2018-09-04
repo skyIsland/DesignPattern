@@ -34,7 +34,7 @@ namespace DecoratorTest
             var tsh = new TShirts();
             var bigTh = new BigTrouser();
 
-            // 开始装饰
+            // 开始装饰 其实可以通过构造函数进行打扮(添加职责)
             tsh.Decorate(person);
             bigTh.Decorate(tsh);
 
