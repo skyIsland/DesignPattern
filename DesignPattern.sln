@@ -23,9 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageHandler", "MessageHa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "观察者模式", "观察者模式", "{773D757D-A341-447C-ACE6-C9678B8EC7DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObServerTest", "ObServerTest\ObServerTest.csproj", "{B9D31A76-98DA-4014-926F-B45EB3E6ECAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObServerTest", "ObServerTest\ObServerTest.csproj", "{B9D31A76-98DA-4014-926F-B45EB3E6ECAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObServerDefined", "ObServerDefined\ObServerDefined.csproj", "{9B3F8B4B-5733-45F8-9249-8D9801A3DC51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObServerDefined", "ObServerDefined\ObServerDefined.csproj", "{9B3F8B4B-5733-45F8-9249-8D9801A3DC51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverReal", "ObserverReal\ObserverReal.csproj", "{21B6320D-D95F-464C-ADFB-77FE82F08360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{9B3F8B4B-5733-45F8-9249-8D9801A3DC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3F8B4B-5733-45F8-9249-8D9801A3DC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3F8B4B-5733-45F8-9249-8D9801A3DC51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B6320D-D95F-464C-ADFB-77FE82F08360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B6320D-D95F-464C-ADFB-77FE82F08360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B6320D-D95F-464C-ADFB-77FE82F08360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B6320D-D95F-464C-ADFB-77FE82F08360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{D15C8E39-0523-455E-8196-4EC04A7CD50F} = {4020149D-C03A-4253-97F1-104194AE9D27}
 		{B9D31A76-98DA-4014-926F-B45EB3E6ECAC} = {773D757D-A341-447C-ACE6-C9678B8EC7DB}
 		{9B3F8B4B-5733-45F8-9249-8D9801A3DC51} = {773D757D-A341-447C-ACE6-C9678B8EC7DB}
+		{21B6320D-D95F-464C-ADFB-77FE82F08360} = {773D757D-A341-447C-ACE6-C9678B8EC7DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD62A4DC-0E97-4A1B-8B1C-970FD1530904}
