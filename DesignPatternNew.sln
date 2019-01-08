@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.SimpleFactory", "1.SimpleFactory\1.SimpleFactory.csproj", "{B316AB03-D5C8-41E9-8CCF-BD5A8CD0E5DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{2FE060F1-7AF1-4DBA-A6F1-9FDAE632A93A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Strategy", "Strategy\2.Strategy.csproj", "{2FE060F1-7AF1-4DBA-A6F1-9FDAE632A93A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Decorator", "3.Decorator\3.Decorator.csproj", "{3D407242-2F86-4060-8085-E2D9A60545CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2FE060F1-7AF1-4DBA-A6F1-9FDAE632A93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE060F1-7AF1-4DBA-A6F1-9FDAE632A93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE060F1-7AF1-4DBA-A6F1-9FDAE632A93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D407242-2F86-4060-8085-E2D9A60545CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D407242-2F86-4060-8085-E2D9A60545CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D407242-2F86-4060-8085-E2D9A60545CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D407242-2F86-4060-8085-E2D9A60545CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
