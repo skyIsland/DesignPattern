@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型模式", "创建型模式", "{3D5926F0-8712-4D57-836C-617B6F206E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构性模式", "结构性模式", "{E1D5684D-0F93-4EE2-8B63-074F29CCE49A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为性模式", "行为性模式", "{F790EA40-DADB-4FA0-B3EE-A942A99959C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "SingletonPattern\SingletonPattern.csproj", "{BF3544B2-2760-444C-8273-330EFDF8CFB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF3544B2-2760-444C-8273-330EFDF8CFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3544B2-2760-444C-8273-330EFDF8CFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3544B2-2760-444C-8273-330EFDF8CFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3544B2-2760-444C-8273-330EFDF8CFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF3544B2-2760-444C-8273-330EFDF8CFB2} = {3D5926F0-8712-4D57-836C-617B6F206E9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E0B37C4-CBBC-4F82-8196-7ED17CBC5E78}
+	EndGlobalSection
+EndGlobal
