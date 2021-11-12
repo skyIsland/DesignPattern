@@ -3,6 +3,9 @@ using SingletonPattern;
 
 namespace Singleton
 {
+    /*
+     * 模拟负载均衡器的实例，应该只有一个实例来分配资源
+     */
     class Program
     {
         /*
