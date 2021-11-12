@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.行为性模式", "03.�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{BF3544B2-2760-444C-8273-330EFDF8CFB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{87ACEA09-9A8D-4FC5-9EE4-A802C92059AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{BF3544B2-2760-444C-8273-330EFDF8CFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF3544B2-2760-444C-8273-330EFDF8CFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF3544B2-2760-444C-8273-330EFDF8CFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87ACEA09-9A8D-4FC5-9EE4-A802C92059AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87ACEA09-9A8D-4FC5-9EE4-A802C92059AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87ACEA09-9A8D-4FC5-9EE4-A802C92059AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87ACEA09-9A8D-4FC5-9EE4-A802C92059AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BF3544B2-2760-444C-8273-330EFDF8CFB2} = {3D5926F0-8712-4D57-836C-617B6F206E9B}
+		{87ACEA09-9A8D-4FC5-9EE4-A802C92059AF} = {3D5926F0-8712-4D57-836C-617B6F206E9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E0B37C4-CBBC-4F82-8196-7ED17CBC5E78}
